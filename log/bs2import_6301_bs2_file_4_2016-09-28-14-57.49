@@ -1,0 +1,177 @@
+log4j:WARN No appenders could be found for logger (org.apache.hadoop.security.Groups).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+connectted to Hbase 
+
+调用main方法时指定的参数包括：
+参数1的值为：6301
+参数2的值为：bs2_file_4
+mysql port  :6301
+mysql table name  :bs2_file_4
+mysql connect string:jdbc:mysql://10.26.7.99:6301/myshard
+Connecting to database...
+Creating statement...
+mysql query string: select v_filename_digest, upload_id, bucket, file_name, upload_zone_id, update_time, size, status, mime, v_content_key, file_type, n_is_caculate_size, __version from bs2_file_4 limit 10
+tmp :0000002a3d74d97569488cc5d3e8827ae2c2f062a
+tmp :1423620343308415317
+tmp :2yysnapshot
+tmp :3yysnapshot/b96843fd5f0887e44c86d80e7f700be3ba6adef4
+tmp :432432505
+tmp :52016-04-12 00:35:35.0
+tmp :636791
+tmp :70
+tmp :8image/jpeg
+tmp :91b96843fd5f0887e44c86d80e7f700be3ba6adef4
+tmp :101
+tmp :110
+tmp :125981767826106005004
+rowkey000002a3d74d97569488cc5d3e8827ae2c2f062a423620343308415317
+start put to hbase !
+end put to hbase !
+count 
+0
+tmp :000000435be25e9ee9a70b8248c37bc615bafdcb4
+tmp :1441276855819158698
+tmp :2yysnapshot
+tmp :3yysnapshot/c884e2857b28f4cb82d512a7b667f795a0fb06a0
+tmp :420002
+tmp :52016-05-31 22:00:07.0
+tmp :622723
+tmp :70
+tmp :8image/jpeg
+tmp :91c884e2857b28f4cb82d512a7b667f795a0fb06a0
+tmp :101
+tmp :110
+tmp :125999424337091180043
+rowkey00000435be25e9ee9a70b8248c37bc615bafdcb4441276855819158698
+start put to hbase !
+end put to hbase !
+tmp :00000062c4f8932bbbe105d2bd2d8ec9ba21c0344
+tmp :1483566855712505423
+tmp :2yysnapshot
+tmp :3yysnapshot/c82d1ddc34d98af26c1f25c2114009363d2c596c
+tmp :432432506
+tmp :52016-09-28 09:58:34.0
+tmp :647796
+tmp :70
+tmp :8image/jpeg
+tmp :91c82d1ddc34d98af26c1f25c2114009363d2c596c
+tmp :101
+tmp :110
+tmp :126041714337275262496
+rowkey0000062c4f8932bbbe105d2bd2d8ec9ba21c0344483566855712505423
+start put to hbase !
+end put to hbase !
+tmp :000000704c52b442e09db87964292e977ed7f40be
+tmp :1468785144343435217
+tmp :2zbasepicture
+tmp :3zbasepicture/6774126_1471351533756_6410.jpg
+tmp :443100
+tmp :52016-08-17 15:31:38.0
+tmp :625963
+tmp :70
+tmp :8image/jpeg
+tmp :912d7857b0e2550ce6942dc74884ab68a6d032f5d7
+tmp :101
+tmp :110
+tmp :126026932626908078615
+rowkey00000704c52b442e09db87964292e977ed7f40be468785144343435217
+start put to hbase !
+end put to hbase !
+tmp :000000852a87f68a0367c73ec8a245c1913a08ecd
+tmp :1465333105175076472
+tmp :2yysnapshot
+tmp :3yysnapshot/bc63ed427fc244d8e66965714d109bc663e7dc18
+tmp :45200
+tmp :52016-08-07 21:25:15.0
+tmp :677500
+tmp :70
+tmp :8image/jpeg
+tmp :91bc63ed427fc244d8e66965714d109bc663e7dc18
+tmp :101
+tmp :110
+tmp :126023480587130184215
+rowkey00000852a87f68a0367c73ec8a245c1913a08ecd465333105175076472
+start put to hbase !
+end put to hbase !
+tmp :000000b79cc610459d4d8cf3d278379f281e01c06
+tmp :1420064965654146495
+tmp :2yysnapshot
+tmp :3yysnapshot/31d8a45e23fd7a915ffbf29496b18a2311788edc
+tmp :434300
+tmp :52016-04-01 23:28:43.0
+tmp :628164
+tmp :70
+tmp :8image/jpeg
+tmp :9131d8a45e23fd7a915ffbf29496b18a2311788edc
+tmp :101
+tmp :110
+tmp :125978212448726516758
+rowkey00000b79cc610459d4d8cf3d278379f281e01c06420064965654146495
+start put to hbase !
+end put to hbase !
+tmp :000000e09512f5d729bb9563a0a3a3ca389c9ed78
+tmp :1425111716888354762
+tmp :2yysnapshot
+tmp :3yysnapshot/a33547ac82662ae2f4208380ed81b49506010964
+tmp :432432506
+tmp :52016-04-16 05:44:00.0
+tmp :623380
+tmp :70
+tmp :8image/jpeg
+tmp :91a33547ac82662ae2f4208380ed81b49506010964
+tmp :101
+tmp :110
+tmp :125983259199010112536
+rowkey00000e09512f5d729bb9563a0a3a3ca389c9ed78425111716888354762
+start put to hbase !
+end put to hbase !
+tmp :000000e80cae3d77740c7d4c9642f5729a7f4e19e
+tmp :1434138911765512920
+tmp :2edu100
+tmp :3edu100/d30c5b1ca33a02173a3cee2a682e85ae25a437a9.jpg
+tmp :426701
+tmp :52016-05-11 17:55:45.0
+tmp :623660
+tmp :70
+tmp :8image/jpeg
+tmp :91a3e80a3fc355e6e234e5d4493af5f68d3f27c5c2
+tmp :101
+tmp :110
+tmp :125992286393441834005
+rowkey00000e80cae3d77740c7d4c9642f5729a7f4e19e434138911765512920
+start put to hbase !
+end put to hbase !
+tmp :000000fa97cb1caa9ebe88320d14a2c14eb6123ec
+tmp :1419581638414104653
+tmp :2imlogo
+tmp :3imlogo/c418947047ndxR5-2C
+tmp :420004
+tmp :52016-03-31 14:42:03.0
+tmp :610306
+tmp :73
+tmp :8
+tmp :91caa96062ccbb709e42a0cd1cf853b99cce884d4b
+tmp :101
+tmp :110
+tmp :126033029790909306636
+rowkey00000fa97cb1caa9ebe88320d14a2c14eb6123ec419581638414104653
+start put to hbase !
+end put to hbase !
+tmp :0000010e973d740ac8f1a50d0a1083c9da5367f6a
+tmp :1449691776526537153
+tmp :2bigosnapshot
+tmp :3bigosnapshot/fdaf8f3757c7161e9d762a5e58d8f7fb1f329730
+tmp :427503
+tmp :52016-06-24 16:40:31.0
+tmp :619079
+tmp :70
+tmp :8
+tmp :91fdaf8f3757c7161e9d762a5e58d8f7fb1f329730
+tmp :101
+tmp :110
+tmp :126007839258353976846
+rowkey000010e973d740ac8f1a50d0a1083c9da5367f6a449691776526537153
+start put to hbase !
+end put to hbase !
+Goodbye!

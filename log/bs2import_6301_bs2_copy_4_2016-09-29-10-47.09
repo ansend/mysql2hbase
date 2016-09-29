@@ -1,0 +1,27 @@
+log4j:WARN No appenders could be found for logger (org.apache.hadoop.security.Groups).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+connectted to Hbase !!!
+
+您调用main方法时指定的参数包括：
+参数1的值为：6301
+参数2的值为：bs2_copy_4
+mysql port  :6301
+mysql table name  :bs2_copy_4
+mysql connect string:jdbc:mysql://10.26.7.99:6301/myshard
+Connecting to database...
+Creating statement...
+mysql query string: select v_content_key, zone_id, v_zfilename_digest, zone_file, update_time, status, n_src, __version from bs2_copy_4 limit 10
+no exception during JDBC query start to write to hbase 
+rowkey :0000037f6878291abf51cc32aad42166ff5aa7fa800000266017f4ca14ae80409a4c9e459e670ed810575225b95
+count : 0
+rowkey :0000070a260abf79a0ea20234a010e4a4f27792290000003400210b5f2452459c44537191183afdc26632592bbe
+rowkey :00000c1a851cfc2a73be5041c07e03b904930ed9c0000026700d7d0f481c5a1b2befde05f23fe83b23d03edc935
+rowkey :00000c1a851cfc2a73be5041c07e03b904930ed9c0000045604658cb86b5ff0b56ac420d235c6322ac289580437
+rowkey :000014eda2d95a2d6f9c2520f44c30f9c1e15a6f50000026602b5d0ec3c2de7f148c1830ee1c60031d943503835
+rowkey :000014eda2d95a2d6f9c2520f44c30f9c1e15a6f50000045604cfa5dc9ef463818b7beb6794f62dd9f06c538567
+rowkey :00001630ba33f537d24abec778d070287f2cd254b0000026600dc4b9723e6b0579b791e7a0214458a6801cac09a
+rowkey :00001c5c0127b1323171fb6c515a3c6847275366f00000268004eb292a13fc8a27a1b803f4bef7136832ee3f55e
+rowkey :00001c5c0127b1323171fb6c515a3c6847275366f00000342032a9b6c65ab4fcb299673aa04798beebe45ccce91
+rowkey :00001c5c0127b1323171fb6c515a3c6847275366f0000038000d807eacfc4f0bf799d680caf53c0be712135aa14
+Goodbye!
